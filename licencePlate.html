@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="licencePlateVaidator.js"></script>
+    <title>Licence Plate Validations</title>
+    <meta charset="UTF-8">
+</head>
+
+<body onload="onload();">
+
+    <div class="container">
+        <div class="jumbotron">
+            <div class="panel-body">
+                <h1>Check your Licence Plate</h1>
+                <input id="licencePlate" type="text" name="enter" class="enter" value="" />
+                <input id="submit" type="button" class="btn btn-primary" value="Check" onclick="checkLicensePlate();" />
+                <div class="mt-2 col-md-12">
+                <labal id="result" value=""></labal>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
