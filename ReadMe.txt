@@ -1,2 +1,1 @@
-Unzip the VehicleRegistrationSystem.zip 
-Double click on the html file
+Javascript regular expression example test
